@@ -1,0 +1,64 @@
+﻿{
+	"patient": {
+		"gender": "Female",
+		"ageInYears": 45,
+		"class": "Inpatient"
+	},
+	"pointOfCare": {
+		"location": {
+			"pointOfCareId": "20206",
+			"name": "ExampleLocation"
+		},
+		"department": {
+			"pointOfCareId": "303485",
+			"name": "Name",
+			"typeId": "5007",
+			"typeName": "TypeName"
+		},
+		"serviceArea": {
+			"pointOfCareId": "38812",
+			"name": "Name"
+		},
+		"organization": {
+			"pointOfCareId": "60059",
+			"name": "Name"
+		}
+	},
+	"requestedOrders": [{
+		"freeTextReasonForExam": "Abnormal gait (ataxia)",
+		"examId": 114053,
+		"orderId": "",
+		"orderingUser": {
+			"userId": "588582",
+			"userName": "Username",
+			"providerId": "50382"
+		},
+		"orderingProvider": {
+			"providerId": "804451",
+			"firstName": "a",
+			"lastName": "a",
+			"NPI": "13534989",
+			"specialtyCode": "100",
+			"specialtyName": "Text"
+		},
+		"authorizingProvider": {
+			"providerId": "2367214",
+			"firstName": "b",
+			"lastName": "b",
+			"NPI": "104883872",
+			"specialtyCode": "100",
+			"specialtyName": "Text"
+		},
+		"orderDiagnoses": [{
+			"codes": [{
+				"codeSystem": "ICD 10",
+				"code": "R26.0"
+			}],
+			"problemName": "ProblemName",
+			"enteredDateTime": "2016-01-01T00:00:00.0000000",
+			"startDateTime": "2016-01-01T00:00:00.0000000",
+			"endDateTime": "2016-01-01T00:00:00.0000000",
+			"status": "Status"
+		}]
+	}]
+}

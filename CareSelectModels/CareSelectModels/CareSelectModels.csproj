@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B7EEC60-2DBA-4038-B1F4-B332314EE622}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CareSelectModels</RootNamespace>
+    <AssemblyName>CareSelectModels</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Version5\Requests\Orders\ExamSpecificQuestionFieldTypes.cs" />
+    <Compile Include="Version5\Requests\Orders\Order.cs" />
+    <Compile Include="Version5\Requests\Orders\OrderAnswer.cs" />
+    <Compile Include="Version5\Requests\Orders\OrderEntryMode.cs" />
+    <Compile Include="Version5\Requests\Orders\OrderInformation.cs" />
+    <Compile Include="Version5\Requests\Orders\OrderQuestion.cs" />
+    <Compile Include="Version5\Requests\Orders\Provider.cs" />
+    <Compile Include="Version5\Requests\Orders\ReasonForExam.cs" />
+    <Compile Include="Version5\Requests\Orders\User.cs" />
+    <Compile Include="Version5\Requests\Sessions\AdministeredMedication.cs" />
+    <Compile Include="Version5\Requests\Sessions\Allergy.cs" />
+    <Compile Include="Version5\Requests\Sessions\CareSelectSessionCreationRequest.cs" />
+    <Compile Include="Version5\Requests\Sessions\Coding.cs" />
+    <Compile Include="Version5\Requests\Sessions\CompletedOrder.cs" />
+    <Compile Include="Version5\Requests\Sessions\ComponentResult.cs" />
+    <Compile Include="Version5\Requests\Sessions\Department.cs" />
+    <Compile Include="Version5\Requests\Sessions\Flowsheet.cs" />
+    <Compile Include="Version5\Requests\Sessions\UpdateSessionRequest.cs" />
+    <Compile Include="Version5\Requests\Sessions\Insurance.cs" />
+    <Compile Include="Version5\Requests\Sessions\InsuranceCoverage.cs" />
+    <Compile Include="Version5\Requests\Sessions\Medication.cs" />
+    <Compile Include="Version5\Requests\Sessions\MedicationList.cs" />
+    <Compile Include="Version5\Requests\Sessions\Note.cs" />
+    <Compile Include="Version5\Response\Recommendations\OrderSpecificWarning.cs" />
+    <Compile Include="Version5\Response\Sessions\OrderStatuses.cs" />
+    <Compile Include="Version5\Requests\Sessions\Patient.cs" />
+    <Compile Include="Version5\Requests\Sessions\PointOfCare.cs" />
+    <Compile Include="Version5\Requests\Sessions\PointOfCareEntity.cs" />
+    <Compile Include="Version5\Requests\Sessions\Problem.cs" />
+    <Compile Include="Version5\Response\Indications\Indication.cs" />
+    <Compile Include="Version5\Response\Indications\IndicationListResponse.cs" />
+    <Compile Include="Version5\Response\Recommendations\BasicPatientInfo.cs" />
+    <Compile Include="Version5\Response\Recommendations\CareSelectAcknowledgementReason.cs" />
+    <Compile Include="Version5\Response\Recommendations\CareSelectRecommendation.cs" />
+    <Compile Include="Version5\Response\Recommendations\KeyValue.cs" />
+    <Compile Include="Version5\Response\Recommendations\RecommendationDisplayInfo.cs" />
+    <Compile Include="Version5\Response\Recommendations\RecommendationResponse.cs" />
+    <Compile Include="Version5\Response\Recommendations\RecommendationResult.cs" />
+    <Compile Include="Version5\Response\Recommendations\RecommendationSupportingContent.cs" />
+    <Compile Include="Version5\Response\Sessions\CareSelectSession.cs" />
+    <Compile Include="Version5\Response\Sessions\CareSelectSessionCreationResponse.cs" />
+    <Compile Include="Version5\Response\Sessions\CareSelectSessionsCreationResponse.cs" />
+    <Compile Include="Version5\Response\Sessions\GetSessionResponse.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

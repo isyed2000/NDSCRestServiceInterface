@@ -1,0 +1,15 @@
+C:\NDSC\GitHub\acrselect\CareSelectApiClients\CareSelectApiModels\CareSelectModels\CareSelectModels\obj\Debug\CareSelectModels.csprojResolveAssemblyReference.cache
+C:\NDSC\GitHub\acrselect\CareSelectApiClients\CareSelectApiModels\CareSelectModels\CareSelectModels\bin\Debug\CareSelectModels.dll
+C:\NDSC\GitHub\acrselect\CareSelectApiClients\CareSelectApiModels\CareSelectModels\CareSelectModels\bin\Debug\CareSelectModels.pdb
+C:\NDSC\GitHub\acrselect\CareSelectApiClients\CareSelectApiModels\CareSelectModels\CareSelectModels\obj\Debug\CareSelectModels.dll
+C:\NDSC\GitHub\acrselect\CareSelectApiClients\CareSelectApiModels\CareSelectModels\CareSelectModels\obj\Debug\CareSelectModels.pdb
+C:\Users\siahmed\Downloads\CareSelectModels\CareSelectModels\CareSelectModels\bin\Debug\CareSelectModels.dll
+C:\Users\siahmed\Downloads\CareSelectModels\CareSelectModels\CareSelectModels\bin\Debug\CareSelectModels.pdb
+C:\Users\siahmed\Downloads\CareSelectModels\CareSelectModels\CareSelectModels\obj\Debug\CareSelectModels.csprojResolveAssemblyReference.cache
+C:\Users\siahmed\Downloads\CareSelectModels\CareSelectModels\CareSelectModels\obj\Debug\CareSelectModels.dll
+C:\Users\siahmed\Downloads\CareSelectModels\CareSelectModels\CareSelectModels\obj\Debug\CareSelectModels.pdb
+C:\development\maindev\NextGenCDS\CareSelectModels\CareSelectModels\bin\Debug\CareSelectModels.dll
+C:\development\maindev\NextGenCDS\CareSelectModels\CareSelectModels\bin\Debug\CareSelectModels.pdb
+C:\development\maindev\NextGenCDS\CareSelectModels\CareSelectModels\obj\Debug\CareSelectModels.csprojResolveAssemblyReference.cache
+C:\development\maindev\NextGenCDS\CareSelectModels\CareSelectModels\obj\Debug\CareSelectModels.dll
+C:\development\maindev\NextGenCDS\CareSelectModels\CareSelectModels\obj\Debug\CareSelectModels.pdb
